@@ -1,11 +1,18 @@
 
 import './App.css';
+import { Footer } from './component/Footer';
+import { Hexmap } from './component/Hexmap';
 import Navbar from './component/Navbar';
+import { MainBodyLayout } from './MainBodyLayout';
 
 function App() {
+
   return (
-    <Navbar/>
-     
+    <>
+      <Navbar />
+      <Hexmap />
+      <Footer />
+    </>
   );
 }
 
