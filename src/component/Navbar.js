@@ -24,8 +24,10 @@ const Navbar = () => {
           <a href="#" className="navbar-item">Overview</a>
           <a href="#" className="navbar-item">Dashboard</a>
           <a href="#" className="navbar-item">Analytics</a>
+      
           <a href="#" className="navbar-item"><FaAdn /></a>
           <a href="#" className="navbar-item"><FaAdn /></a>
+          
         </div>
       </nav>
     </div>
