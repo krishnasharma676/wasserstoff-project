@@ -110,6 +110,7 @@ body {
 .my-component {
   display: flex;
   height: 79vh;
+  
 }
 
 .content {
@@ -121,13 +122,73 @@ body {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  margin-right: 190px;
-  margin-top: 10px;
+  margin-right: 160px;
+  margin-top: 15px;
 
 }
 
 .image {
-  max-width: 120%;
-  max-height:70vh;
+  max-width: 200%;
+  max-height:65vh;
 
 }
+
+
+.footer{
+  height: '38px';
+ background-color: #191932;
+ padding-bottom: 1px;
+
+}
+.footer p{
+  padding-top: 5px;
+  color: #5A5A89;
+  ;
+}
+
+
+.info-component {
+  display: flex;
+  align-items: center;
+  height: 30%;
+  width: 250px;
+  
+  border-radius: 5px;
+  align-content: flex-start;
+
+}
+
+.icon-container {
+  margin-right: 20px;
+  background-color: #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+
+}
+
+.text-container {
+  flex: 1;
+  
+}
+
+h2 {
+  margin-bottom: 0px;
+  color: #ccc;
+}
+
+p {
+  font-size: 0.8em;
+  color: #666;
+  padding-bottom: 0px;
+}
+
+.databar {
+  
+  width: 250px;
+ height: 280px;
+ margin-top: 11%;
+ margin-left: 7%;
+}
+
+

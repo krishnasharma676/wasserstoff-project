@@ -27,8 +27,7 @@ const Navbar = () => {
       
           <a href="#" className="navbar-item"><FaAdn /></a>
           <a href="#" className="navbar-item"><FaAdn /></a>
-          
-        </div>
+          </div>
       </nav>
     </div>
 

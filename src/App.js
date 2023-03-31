@@ -1,5 +1,6 @@
 
 import './App.css';
+import Databar from './component/Databar';
 import { Footer } from './component/Footer';
 import { Hexmap } from './component/Hexmap';
 import Navbar from './component/Navbar';
@@ -9,9 +10,10 @@ function App() {
 
   return (
     <>
-      <Navbar />
+       <Navbar />
+    
       <Hexmap />
-      <Footer />
+      <Footer /> 
     </>
   );
 }
