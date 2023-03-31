@@ -8,7 +8,7 @@ const Databar = (props) => {
     </div>
     <div className="text-container">
       <h2>{props.heading}</h2>
-      <p>dats</p>
+      <p>data</p>
     </div>
   </div>
   )

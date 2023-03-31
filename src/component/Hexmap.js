@@ -9,7 +9,7 @@ export const Hexmap = () => {
      <div className='databar'>
      <Databar heading="Total Earning"/>
        <Databar heading="Sales"/>
-       <Databar heading="Purchase"/>
+       <Databar heading="Purchase" color="green"/>
      </div>
     <div className="content">
       {/* Your content goes here */}
