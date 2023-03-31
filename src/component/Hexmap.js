@@ -6,7 +6,19 @@ import '../App.css'
 export const Hexmap = () => {
   return (
     <div className="my-component">
+
+
      <div className='databar'>
+
+<div className='dtls1'>
+     <div className='dtls'>
+      <a>All users</a>
+      <a>Details</a>
+      </div>
+      <h1>fetch data</h1>
+      </div>
+
+
      <Databar heading="Total Earning"/>
        <Databar heading="Sales"/>
        <Databar heading="Purchase" color="green"/>

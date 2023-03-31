@@ -3,6 +3,7 @@ import { FaAdn } from "react-icons/fa";
 const Databar = (props) => {
   return (
     <div className="info-component">
+      
     <div className="icon-container">
     
     </div>
