@@ -2,6 +2,7 @@ import React from 'react'
 import Databar from './Databar';
 import HexMap from './icons/HexMap.svg'
 import '../App.css'
+import AssessmentIcon from '@mui/icons-material/Assessment';
 
 export const Hexmap = () => {
   return (
@@ -19,9 +20,10 @@ export const Hexmap = () => {
       </div>
 
 
-     <Databar heading="Total Earning"/>
-       <Databar heading="Sales"/>
-       <Databar heading="Purchase" color="green"/>
+     <Databar heading="Total Earning" color="#9B1BFA" />
+       <Databar heading="Sales" color=  "#4DC0F4"/>
+       <Databar heading="Purchase" color= "#FFA63F" icon={<AssessmentIcon/>}/>;
+
      </div>
     <div className="content">
       {/* Your content goes here */}

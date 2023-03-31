@@ -2,6 +2,8 @@ import React from 'react'
 import logo from './icons/logo.svg'
 import profile from './icons/profile.svg'
 import { FaAdn } from "react-icons/fa";
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 const Navbar = () => {
   return (
@@ -25,8 +27,8 @@ const Navbar = () => {
           <a href="#" className="navbar-item">Dashboard</a>
           <a href="#" className="navbar-item">Analytics</a>
       
-          <a href="#" className="navbar-item"><FaAdn /></a>
-          <a href="#" className="navbar-item"><FaAdn /></a>
+          <a href="#" className="navbar-item"><Person2OutlinedIcon/></a>
+          <a href="#" className="navbar-item"><SettingsIcon/></a>
           </div>
       </nav>
     </div>

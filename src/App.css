@@ -138,6 +138,8 @@ body {
   height: '38px';
  background-color: #191932;
  padding-bottom: 1px;
+ display: flex;
+ justify-content: space-between;
 
 }
 .footer p{

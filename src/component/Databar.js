@@ -4,8 +4,8 @@ const Databar = (props) => {
   return (
     <div className="info-component">
       
-    <div className="icon-container">
-    
+    <div className="icon-container"  style={{ backgroundColor: props.color }}>
+    <a>{props.icon}</a>
     </div>
     <div className="text-container">
       <h2>{props.heading}</h2>
